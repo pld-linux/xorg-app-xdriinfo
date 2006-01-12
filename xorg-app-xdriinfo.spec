@@ -1,12 +1,12 @@
 Summary:	xdriinfo application
 Summary(pl):	Aplikacja xdriinfo
 Name:		xorg-app-xdriinfo
-Version:	0.99.2
+Version:	1.0.0
 Release:	0.1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/xdriinfo-%{version}.tar.bz2
-# Source0-md5:	76ffe35f42e4f51d73349f8c3b1812cc
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/xdriinfo-%{version}.tar.bz2
+# Source0-md5:	8941897fd2bd533f8a676df60ec4f7f5
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
 BuildRequires:	autoconf >= 2.57
