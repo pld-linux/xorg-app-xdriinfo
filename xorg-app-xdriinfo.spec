@@ -1,5 +1,5 @@
 Summary:	xdriinfo application
-Summary(pl.UTF-8):   Aplikacja xdriinfo
+Summary(pl.UTF-8):	Aplikacja xdriinfo
 Name:		xorg-app-xdriinfo
 Version:	1.0.1
 Release:	1
