@@ -1,5 +1,5 @@
-Summary:	xdriinfo application
-Summary(pl.UTF-8):	Aplikacja xdriinfo
+Summary:	xdriinfo application to query configuration information of DRI drivers
+Summary(pl.UTF-8):	Aplikacja xdriinfo do sprawdzania konfiguracji sterowników DRI
 Name:		xorg-app-xdriinfo
 Version:	1.0.2
 Release:	1
@@ -18,10 +18,15 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-xdriinfo application.
+xdriinfo program can be used to query configuration information of
+direct rendering drivers. If no command argument is specified it lists
+the names of the direct rendering drivers for all screens.
 
 %description -l pl.UTF-8
-Aplikacja xdriinfo.
+Program xdriinfo służy do odczytu informacji o konfiguracji
+sterowników bezpośredniego renderingu (Direct Rendering, DRI). Jeśli
+nie podano argumentu z linii poleceń, program wyświetla nazwy
+sterowników DRI dla wszystkich ekranów.
 
 %prep
 %setup -q -n xdriinfo-%{version}
