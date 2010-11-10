@@ -1,20 +1,20 @@
 Summary:	xdriinfo application to query configuration information of DRI drivers
 Summary(pl.UTF-8):	Aplikacja xdriinfo do sprawdzania konfiguracji sterowników DRI
 Name:		xorg-app-xdriinfo
-Version:	1.0.3
+Version:	1.0.4
 Release:	1
 License:	MIT
 Group:		X11/Applications
 Source0:	http://xorg.freedesktop.org/releases/individual/app/xdriinfo-%{version}.tar.bz2
-# Source0-md5:	cb304d1ce562ac48b68eedeba38c662f
+# Source0-md5:	3d3cad4d754e10e325438193433d59fd
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	Mesa-libGL-devel
-BuildRequires:	autoconf >= 2.57
+BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
 BuildRequires:	xorg-lib-libX11-devel
 BuildRequires:	xorg-proto-glproto-devel
-BuildRequires:	xorg-util-util-macros >= 1.3
+BuildRequires:	xorg-util-util-macros >= 1.8
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
